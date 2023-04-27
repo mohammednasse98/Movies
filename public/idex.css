@@ -1,0 +1,195 @@
+.En{
+    margin-left: 70px;
+}
+.navheader{
+    margin-top: 20px;
+  }
+.navbar-brand{
+    margin-top: 20px ;
+   
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.header{
+    background-image: url(header.png);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat !important;
+    
+}
+.titlemovies{
+    color: white;
+    margin-top: 13%;
+    text-align: center;
+}
+@media screen and (max-width: 300px) {
+  .trailer{
+    margin-top: 7%;
+    width: 250px;
+    height: 100px; 
+}
+}
+.trailer{
+    margin-top: 7%;
+    width: 750px;
+    height: 550px; 
+}
+.bodymovies{
+  
+        background-color: black !important;
+        height: 450%!important;
+        width: 100% ;
+        transform-origin: bottom left;
+        z-index:-1;
+        position:absolute;
+    
+}
+#root h2{
+   text-align: center; 
+}
+#root h5 ,h6  {
+    padding: 5px;
+    color: white !important;
+}
+#root p {
+    padding: 5px;
+    color: rgb(15, 15, 151);
+}
+
+#root{
+    color: white;
+    margin-top: 35%;
+}
+.mostMovies{
+    background-color: black;
+        width: 100%;
+        
+        margin-top: 40%;
+
+
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+.loginbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 40%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335 !important;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998 !important;
+}
